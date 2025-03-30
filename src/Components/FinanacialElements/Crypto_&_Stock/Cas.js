@@ -2,23 +2,23 @@ import React, { useState } from 'react';
 import './Cas.css';
 import 'remixicon/fonts/remixicon.css';
 const allCryptocurrencies = [
-  { name: 'Bitcoin', symbol: 'BTC', price: '$42,568.75', change: '+2.34%', marketCap: '$1.73T', volume24h: '$27.04B' },
-  { name: 'Ethereum', symbol: 'ETH', price: '$2,267.41', change: '+1.52%', marketCap: '$241.95B', volume24h: '$13.0B' },
-  { name: 'Cardano', symbol: 'ADA', price: '$0.52', change: '-3.19%', marketCap: '$18.49B', volume24h: '$5.7B' },
-  { name: 'Solana', symbol: 'SOL', price: '$105.87', change: '+8.24%', marketCap: '$45.6B', volume24h: '$8.9B' },
-  { name: 'Ripple', symbol: 'XRP', price: '$0.62', change: '-1.08%', marketCap: '$136.47B', volume24h: '$4.4B' },
-  { name: 'Dogecoin', symbol: 'DOGE', price: '$0.12', change: '+1.45%', marketCap: '$28.667B', volume24h: '$1.54B' },
-  { name: 'Polkadot', symbol: 'DOT', price: '$6.78', change: '-0.89%', marketCap: '$4.77B', volume24h: '$1.5B' }
+  { name: 'Bitcoin', symbol: 'BTC', price: '$83,164.75', change: '+2.34%', marketCap: '$1.73T', volume24h: '$27.04B' },
+  { name: 'Ethereum', symbol: 'ETH', price: '$1843.41', change: '+1.52%', marketCap: '$241.95B', volume24h: '$13.0B' },
+  { name: 'Cardano', symbol: 'ADA', price: '$0.68', change: '-3.19%', marketCap: '$18.49B', volume24h: '$5.7B' },
+  { name: 'Solana', symbol: 'SOL', price: '$126.87', change: '+8.24%', marketCap: '$45.6B', volume24h: '$8.9B' },
+  { name: 'Ripple', symbol: 'XRP', price: '$2.167', change: '-1.08%', marketCap: '$136.47B', volume24h: '$4.4B' },
+  { name: 'Dogecoin', symbol: 'DOGE', price: '$0.17', change: '+1.45%', marketCap: '$28.667B', volume24h: '$1.54B' },
+  { name: 'Polkadot', symbol: 'DOT', price: '$4.78', change: '-0.89%', marketCap: '$4.77B', volume24h: '$1.5B' }
 ];
 
 const allStocks = [
-  { name: 'Apple', symbol: 'AAPL', price: '$178.32', change: '+0.87%', marketCap: '$3.33T', volume24h: '53.12M shares' },
-  { name: 'Microsoft', symbol: 'MSFT', price: '$325.87', change: '+1.23%', marketCap: '$3.09T', volume24h: '$42.1B' },
-  { name: 'Tesla', symbol: 'TSLA', price: '$248.42', change: '-2.15%', marketCap: '$875.09B', volume24h: '93.51M shares' },
-  { name: 'Amazon', symbol: 'AMZN', price: '$132.64', change: '+0.54%', marketCap: '$2.50T', volume24h: '$45.6B' },
-  { name: 'Meta', symbol: 'META', price: '$315.62', change: '+0.83%', marketCap: '$1.48T', volume24h: '$28.9B' },
-  { name: 'Google', symbol: 'GOOGL', price: '$142.56', change: '+1.12%', marketCap: '$2.33T', volume24h: '$240.45B' },
-  { name: 'Nvidia', symbol: 'NVDA', price: '$498.76', change: '+3.45%', marketCap: '$2.94T', volume24h: '$24.40B' }
+  { name: 'Apple', symbol: 'AAPL', price: '$217.32', change: '+0.87%', marketCap: '$3.33T', volume24h: '53.12M shares' },
+  { name: 'Microsoft', symbol: 'MSFT', price: '$378.87', change: '+1.23%', marketCap: '$3.09T', volume24h: '$42.1B' },
+  { name: 'Tesla', symbol: 'TSLA', price: '$263.42', change: '-2.15%', marketCap: '$875.09B', volume24h: '93.51M shares' },
+  { name: 'Amazon', symbol: 'AMZN', price: '$192.64', change: '+0.54%', marketCap: '$2.50T', volume24h: '$45.6B' },
+  { name: 'Meta', symbol: 'META', price: '$576.62', change: '+0.83%', marketCap: '$1.48T', volume24h: '$28.9B' },
+  { name: 'Google', symbol: 'GOOGL', price: '$154.56', change: '+1.12%', marketCap: '$2.33T', volume24h: '$240.45B' },
+  { name: 'Nvidia', symbol: 'NVDA', price: '$109.76', change: '+3.45%', marketCap: '$2.94T', volume24h: '$24.40B' }
 ];
 
 

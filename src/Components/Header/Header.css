@@ -13,7 +13,6 @@ body{
     background-color: transparent;
     backdrop-filter: blur(10px);
     padding: 25px 100px;
-    position: fixed;
 }
 
 
@@ -65,7 +64,14 @@ a{
 
 .navlinks{
     display: flex;
-    gap: 40px;
+    gap: 30px;
+    padding: 10px;
+}
+
+.navlinks a{
+    color: #888;
+    font-weight: 500;
+    padding: 10px 12px;
 }
 
 i{
@@ -81,27 +87,5 @@ i{
     margin-top: 10px;
 }
 
-.auth-buttons{
-    display: flex;
-    gap: 20px;
-}
 
-.auth-buttons a{
-    border-radius: 10px;
-    color: white;
-    padding: 14px 20px;
-}
 
-.login-btn{
-    border: 1.5px solid #444;
-}
-
-.signup-btn{
-    border: 1.5px solid #444;
-    background-color: #0D1633;
-}
-
-.login-btn:hover , .signup-btn:hover{
-    box-shadow: 0 0 8px 1px #D5B03A;
-    transition: 0.5s;
-}

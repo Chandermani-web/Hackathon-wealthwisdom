@@ -114,7 +114,28 @@ const bes = [
   },
 ];
 
-
+const FuturePlans = [
+  {
+    icon:"ri-openai-line",
+    title: "Full AI-Driven Financial Planning",
+    description: "Our next-generation AI will provide comprehensive financial planning personalized to your goals, risk tolerance, and lifestyle needs with unprecedented accuracy.",
+  },
+  {
+    icon:"ri-rocket-line",
+    title: "MVP & BETA Launch",
+    description: "Join our exclusive beta program to get early access to cutting-edge features, predictive market analysis tools, and personalized investment strategies before they're publicly available.",
+  },
+  {
+    icon: "ri-earth-fill",
+    title: "Market Expansion",
+    description: "We're expanding our services globally, bringing WealthWisdom's intelligent financial guidance to new markets with localized advice, region-specific investment options, and multi-currency support.",
+  },
+  {
+    icon: "ri-award-line",
+    title: "Industry Domination",
+    description: "Our strategic roadmap includes becoming the leading AI financial advisor platform globally, setting new standards for accuracy, personalization, and wealth-building strategies across the fintech industry.",
+  },
+]
 const Home = () => {
   const [selectedBES, setSelectedBES] = useState(bes[0]);
 
@@ -248,6 +269,24 @@ const Home = () => {
               </div>
             </div>
           </div>
+      </div>
+
+      <div className="upcoming-projects">
+        
+        <div className="upcoming-projects-header">
+          <h1>Our Future Plans</h1>
+          <p>We're constantly evolving our platform to bring you the most advanced financial tools and services. Here's what's coming next in our product roadmap.</p>
+        </div>
+        
+        <div className="upcoming-projects-list">
+          {FuturePlans.map((plan, index) => (
+            <div key={index} className="upcoming-project-card">
+              <i className={plan.icon}></i>
+              <h2>{plan.title}</h2>
+              <p>{plan.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

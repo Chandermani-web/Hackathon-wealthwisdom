@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import { Link, NavLink } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
+import {  useClerk, useUser, SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
+import Home from '../Home/Home.js';
 
 const navItems = [
   { path: "/Aiinvestment", label: "AI Investment Advisor" },
@@ -11,6 +14,10 @@ const navItems = [
 
 
 const Header = () => {
+  
+  const {openSignIn}= useClerk();
+  const {user}= useUser();
+
   return (
     <header className="header-container">
       <nav>
@@ -35,8 +42,14 @@ const Header = () => {
 
         {/* Registration Buttons */}
         <div className="auth-buttons">
-          <Link to="/Login" className="btn login-btn">Log In</Link>
-          <Link to="/Signup" className="btn signup-btn">Logout</Link>
+            <header>
+              <SignedOut>
+                <SignInButton />
+              </SignedOut>
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
+            </header>
         </div>
       </nav>
     </header>
