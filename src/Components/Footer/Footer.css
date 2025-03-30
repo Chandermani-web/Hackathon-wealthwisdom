@@ -1,0 +1,86 @@
+.footer-container{
+    border-top: 1px solid gray;
+    padding: 25px 100px;
+}
+
+.footer-container-top{
+    padding: 50px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.footer-container-top h1{    
+    color: white;
+    font-size: 20px;
+}
+
+.footer-container-top h3{
+    font-size: 13px;
+}
+
+.fc1, .fc2, .fc3, .fc4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fc1 p{
+    text-align: left;
+}
+
+.footer-container-top .fc1 .logo{
+    color: #d5c03a;
+}
+
+.footer-container-top .fc1{
+    width: 300px;
+}
+
+.footer-container-top .fc1 .social-media i{
+    color: gray;
+    font-size: x-large;
+}
+
+.footer-container-top .fc1 .social-media i:hover{
+    color: #d5c03a;
+    transition: 0.5s;
+}
+
+.footer-container-top .fc4 {
+    width: 300px;
+}
+
+.footer-container-top .fc4 div{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footer-container-top .fc4 div input{
+    background-color: transparent;
+    border: none;
+    width: 90%;
+}
+
+.footer-container .fc4 div i{
+    color: gray;
+    font-size: large;
+}
+
+.footer-container-bottom{
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container-bottom div{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-container-bottom div h3{
+    font-size: small    ;
+}

@@ -1,0 +1,151 @@
+*{
+    color: #888;
+}
+
+.login-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 32%;
+    gap: 20px;
+}
+
+form{
+    padding: 10%;
+    display: flex;
+    gap: 20px;
+    line-height: 33px;
+    flex-direction: column;
+    box-shadow: 0 0 10px 1px whitesmoke;
+    border-radius: 20px;
+}
+
+.login-header{
+    text-align: center;
+    line-height: 40px;
+}
+
+.login-header h1{
+    color: #d5c03a;
+    font-size: 30px;
+}
+
+form .login-field{
+    width: 100%;
+}
+
+.login-username, .login-password{
+    display: flex;
+    border: 1px solid #888;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.login-username input, .login-password input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+}   
+
+.login-username input:focus, .login-password input:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+.login-username input:valid , .login-password input:valid{
+    border-bottom: 1px solid green;
+}
+
+
+.login-username input:invalid , .login-password input:invalid{
+    border-bottom: 1px solid red;
+}
+
+.login-forget{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-forget p a{
+    color: gold;
+    font-size: 14px;
+}
+
+.login-forget p a:hover{
+    color: red;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+form button{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0E1736;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover{
+    box-shadow: 0 0 10px 1px brown;
+    transition: 0.4s;
+}
+
+form button i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+hr{
+    border: 1px solid #222;
+    margin: 10px 0;
+}
+
+p{
+    text-align: center;
+}
+
+.login-social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.login-social i{
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.google i:hover{color: red; font-size: 30px; transition: 0.5s;}
+.facebook i:hover{color: blue; font-size: 30px; transition: 0.5s;}
+.twitter i:hover{color: skyblue; font-size: 30px; transition: 0.5s;}
+.linkedin i:hover{color: blue; font-size: 30px; transition: 0.5s;}
+
+.login-footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;    
+}
+
+.login-footer a{
+    color: blue;
+}
+
+.login-footer a:hover{
+    color: red;
+    text-decoration: none;
+    transition: 0.5s;
+}

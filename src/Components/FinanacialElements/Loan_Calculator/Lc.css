@@ -1,0 +1,237 @@
+/* LoanCalculator.css */
+
+  .loan-calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .calculator-title {
+    color: #d0c03a;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .calculator-paragraph{
+    color: #454C60;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  
+  .calculator-flex {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+
+
+  .calculator-inputs{
+    width: 35%;
+  }
+
+  .calculator-results{
+    width: 65%;
+  }
+
+  .calculator-inputs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(218, 165, 32, 0.2);
+    border-radius: 10px;
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .input-group label {
+    color: #999;
+    font-size: 14px;
+  }
+  
+  .input-field {
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #070C1A;
+  }
+  
+  .input-field i {
+    color: #d0c03a;
+    margin-right: 10px;
+  }
+  
+  .input-field input {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+  }
+
+  .input-field button{
+    color: white;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+  }
+  
+  .button-field{
+    background-color: #0D1532;
+    border-radius: 10px;
+  }
+
+  .button-field:hover{
+    box-shadow: 0 0 10px 1px gold;
+    transition: 0.4s;
+  }
+  
+  .calculator-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .breakdown-card {
+    flex: 1;
+  }
+
+  .results-card-container{
+    display: flex;
+    gap: 30px;
+  }
+
+  .result-card {
+    flex: 1;
+    background-color: #090F20;
+    border: 1px solid rgba(218, 165, 32, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .result-card h3 {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: transparent;
+  }
+  
+  .result-card h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5px;
+    background-color: transparent;
+  }
+  
+  .result-card p {
+    color: #666;
+    font-size: 12px;
+    background-color: transparent;
+    text-align: left;
+  }
+  
+  .breakdown-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(218, 165, 32, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .breakdown-card h3 {
+    color: white;
+    text-align: left;
+    margin-bottom: 15px;
+    background-color: transparent;
+  }
+  
+  .breakdown-bars {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 5px;
+    gap: 20px;
+    overflow: hidden;
+  }
+  
+  .principal-bar {
+    background-color: #21BA5A;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+    
+  .interest-bar {
+    background-color: #ff4d4d;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .breakdown-bars-1 , .breakdown-bars-2 , .breakdown-bars-3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+  }
+
+
+  .breakdown-bars span {
+    color: white;
+    background-color: transparent;
+    color: gray;
+    font-weight: bold;
+    z-index: 1;
+  }  
+
+
+  .loan-footer{
+    display: flex;
+    gap: 50px;
+  }
+
+  .loan-footer div{
+    flex: 1;
+    border: 1.5px solid #222;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .loan-footer i{
+    font-size: xx-large;
+  }
+
+  .loan-footer h1{
+    font-size: large;
+  }
+
+  .loan-footer p{
+    text-align: left;
+  }
+
+  .loan-footer div:hover{
+    box-shadow: 0 0 15px gold;
+    transition: 0.5s
+  }

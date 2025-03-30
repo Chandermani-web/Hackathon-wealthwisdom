@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hero section */
+
+.hero-section{
+    width: 100%;
+    /* padding: 50px 100px; */
+}
+
+/* herosection first container */
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t1, .t2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+/* topsection first section */
+
+.t1{
+    width: 50%;
+}
+
+.t1 .t1-1{
+    color: white;
+    border: 1px solid #d5b03a;
+    border-radius: 30px;
+    background-color: #060C1B;
+    font-size: 13px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+i{
+    color: #d5b03a;
+}
+
+.t1-1 i{
+    font-size: 14px;
+}
+
+.ts1 h1{
+    font-size: 58px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.ts1 .ts1-mid{
+    color: #d5b03a;
+}
+
+.ts-2{
+    color: #999;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.ts21{
+    display: flex;
+    gap: 20px;
+}
+
+.ts21 button{
+    color: white;
+    padding: 10px;
+    font-size: 17.5px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.ts21 button:hover{
+    box-shadow: 0 0 5px 1px #d5b03a;
+    transition: 0.5s;
+}
+
+.ts21 .ts21-btn1{
+    background-color: #0D1633;
+}
+
+.ts21-btn1 i{
+    font-size: 17.5px;
+    color: white;
+    background-color: #0D1633;
+}
+
+.ts22{
+    margin-top: 10px;    
+    display: flex;
+    gap: 30px;
+}
+
+.ts22 span{
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
+
+/* topsection second and last section */
+
+/* AI Chat Container */
+
+
+
+.t2 a{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0 10px 1px gray;
+}
+
+/* Heading */
+.ai-heading {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.ai-heading i {
+    color: gold;
+    margin-right: 8px;
+}
+
+/* Chat Message */
+.ai-chat-container {
+    background-color: #192132;
+    padding: 15px;
+    border-radius: 10px;
+    height: 30vh;
+    margin-top: 15px;
+}
+
+.ai-chat-container h1 {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+
+.ai-chat-container span {
+    font-size: 14px;
+    color: #b8bcc9;
+}
+
+/* Search Input */
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #141a26;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.search-input-ai {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+}
+
+.input-container i {
+    color: gold;
+    font-size: 18px;
+}
+
+
+
+
+/* hero section bottom section */
+
+.bottom-top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures all child elements are centered */
+    text-align: center;
+    margin: 80px 0;
+    gap: 60px;
+    width: 100%;    
+}
+
+/* Remove unnecessary margins from .bts1 */
+.bottom-top-section .bts1 {
+    max-width: 800px; /* Set a max-width instead of fixed margins */
+    margin: 0 auto; /* Centers it horizontally */
+}
+
+.bottom-top-section .bts1 h1{
+    color: #d5b03a;
+    font-size: 45px;
+    text-transform: capitalize;
+    /* margin: 0 250px; */
+    line-height: 50px;
+}
+
+.bottom-top-section .bts1 p{
+    color: #999;
+    font-size: 20px;
+    /* margin: 0 200px; */
+    line-height: 30px;
+}
+
+
+
+.bottom-middle-section{
+    width: 100%;
+}
+
+.bottom-middle-section .bts1{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.bottom-middle-section .bts1 .idx{
+    flex: 1;
+    border: 1px solid rgb(67, 55, 55);
+    border-radius: 10px;
+    padding: 14px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.bottom-middle-section .bts1 .idx:hover{
+    box-shadow: 0 0 10px 1px #d5b03a;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.bottom-middle-section .bts1 .idx div{
+    padding: 20px 0;
+}
+
+.bottom-middle-section .bts1 .idx .ic-cont{
+    text-shadow: 0 0 20px gold;
+}
+
+.bottom-middle-section .bts1 .idx div h1{
+    font-size: 22px;
+    color: white;
+}
+
+.bottom-middle-section .bts1 .idx div h2{
+    font-size: 18px;
+    color: gray;
+}
+
+.bottom-end-section{
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #222;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 30px;
+}
+
+.bottom-end-section h1{
+    color: #d5b03a;
+    font-size: 28px;
+}
+
+.bottom-end-section p{
+    color: #707994;
+    text-align: left;
+    line-height: 20px;
+}
+
+.bottom-end-section .bes1{
+    border: 1px solid #222;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bes11, .bes12, .bes13{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.bes11 h1, .bes12 h1 ,.bes13 h1{
+    color: white;
+    font-size: 15px;
+}
+
+.bes11 p, .bes12 p ,.bes13 p{
+    color: gray;
+    /* font-size: 10px; */
+}
+
+.bes11 i, .bes12 i ,.bes13 i{
+    font-size: 40px;
+}

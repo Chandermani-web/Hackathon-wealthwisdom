@@ -1,0 +1,272 @@
+.cas{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cas-header h1{
+    color: #d0c03a;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.cas-header p{
+    color: gray;
+    font-size: large;
+}
+
+.cas-content{
+    border: 1px solid rgb(208, 192, 58 ,0.5);
+    border-radius: 10px;
+    padding: 1em 0;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #d0c03a;
+    padding: 10px 0;
+}
+
+.navigation button{
+    font-size: large;
+    border: none;
+}
+
+.active{
+    color: white !important;
+    font-weight: bold;
+    border-bottom: 2px solid white !important;
+}
+
+.crypto-container{
+    display: flex;
+}
+
+.crypto-element{
+    width: 35%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar{
+    display: flex;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 4px;
+    gap: 10px;
+}
+
+.search-bar i{
+    color: gray;
+    font-size: 17px;
+}
+
+.search-bar input{
+    border: none;
+    color: gray;
+    font-size: 17px;
+    width: 100%;
+    outline: none;
+}
+
+.crypto-element-list-header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding: 20px 0;
+}
+
+.crypto{
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.crypto:hover {
+    background: rgb(9, 9, 53);
+  }
+
+.crypto .crt-st{
+    display: flex;
+    gap: 10px;
+}
+
+.crt-st span{
+    font-size: small;
+    font-weight: 700;
+    border-radius: 50%;
+    background-color: rgb(6, 6, 39);
+    padding: 10px;
+    color: #d0c03a;
+    display: flex;
+    align-items: center;
+}
+
+.crt-st h1{
+    font-size: 17px;
+}
+
+.crt-st p{
+    font-size: small;
+    text-align: left;
+}
+
+.crt-st2 h3{
+    color: white;
+    font-size: 17px;
+}
+
+.crt-st2 h4{
+    font-size: 15px;
+    text-align: right;
+    font-weight: 100;
+}
+
+.inc{
+    color: green;
+}
+
+.crypto-side-chart{
+    border-left: 1px solid #d0c03a;
+
+}
+
+
+
+
+/* crypto container */
+
+.crypto-sidebar{
+    width: 60%;
+}
+
+.crypto-side-chart{
+    padding: 30px;
+}
+
+.crypto-side-chart-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.crypto-side-chart-1 .csch{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.csch span{
+    background-color: rgb(6, 6, 39);
+    border-radius: 50%;
+    color: #d0c03a;
+    padding: 10px;
+}
+
+.csch div h1{
+    font-size: 25px;
+}
+
+.csch div p{
+    font-size: small;
+    text-align: left;
+}
+
+.csch2{
+    display: flex;
+    gap: 20px;
+}
+
+.csch2 span{
+    border: 2px solid #333;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.csch2 i{
+    font-size: 20px;
+}
+
+.currentprice{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.crypto-side-chart-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.csch11{
+    display: flex;
+    gap: 10px;
+}
+
+.csch11 h2{
+    color: white;
+    font-size: 3em;
+}
+
+.csch12{
+    display: flex;
+    gap: 15px;
+}
+
+.csch12 p{
+    font-size: 12px;
+}
+
+.csch12 span{
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+.crypto-side-chart-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.crypto-side-chart-3 h1{
+    color: white;
+    font-size: large;
+}
+
+.csch111{
+    display: flex;
+    gap: 10px;
+}
+
+.csch111 span{
+    flex-direction: 1;
+    border: 1px solid gray;
+    background-color: #0D1633;
+    color: white;
+    font-size: small;
+    padding: 4px;
+}
+
+.crypto-side-chart-4{
+    margin-top: 30px;
+    border: 1px solid goldenrod;
+    padding: 100px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #070C1A;
+}
+
+.crypto-side-chart-4 i {
+    font-size: 130px;
+    color: rgb(222, 184, 135, 0.5);
+    background-color: transparent;
+}
+
+.crypto-side-chart-4 h1{
+    background-color: transparent;
+    font-size: large;
+}

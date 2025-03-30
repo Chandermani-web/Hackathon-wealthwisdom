@@ -1,0 +1,436 @@
+/* SBP.css */
+.SBP_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 17em;
+    gap: 20px;
+  }
+  
+  .SBP_header h1 {
+    font-size: 3rem;
+    color: #d0c03a;
+  }
+  
+  .SBP_header p {
+    font-size: 1.23rem;
+    margin-bottom: 80px;
+  }
+  
+  .SBP_content {
+    border: 1px solid rgba(218, 165, 32, 0.2);
+    border-radius: 20px;
+    padding: 1em 0;
+  }
+  
+  .SBP_content .navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    border-bottom: 1px solid rgba(218, 165, 32, 0.5);
+  }
+  
+  .SBP_content .navigation button {
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .active1 {
+    color: #d0c03a !important;
+    font-weight: bold;
+    border-bottom: 2px solid #d0c03a;
+  }
+  
+  /* Dashboard Styles */
+  .dashboard {
+    padding: 2em 2em;
+  }
+  
+  .dashboard_top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 2em 0;
+  }
+  
+  .dashboard_top h2 {
+    font-size: large;
+    color: white;
+    background-color: transparent;
+  }
+  
+  .dashboard_top h1 {
+    color: white;
+    font-size: 2rem;
+    background-color: transparent;
+  }
+  
+  .dashboard_top p {
+    text-align: left;
+    background-color: transparent;
+  }
+  
+  .dashboard_top_1, 
+  .dashboard_top_2, 
+  .dashboard_top_3 {
+    flex: 1;
+    border: 1px solid rgba(218, 165, 32, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-color: #070C1A;
+  }
+  
+  .dashboard_top_1 div, 
+  .dashboard_top_2 div, 
+  .dashboard_top_3 div {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+  
+  .dashboard_top_2 i, 
+  .dashboard_top_2 p {
+    color: #21BA5A;
+  }
+  
+  .dashboard_top_3 i, 
+  .dashboard_top_3 p {
+    color: #ff4d4d;
+  }
+  
+  .dashboard_bottom {
+    padding: 1em 1em;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .dashboard_bottom_left, 
+  .dashboard_bottom_right {
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(218, 165, 32, 0.2);
+  }
+  
+  .dashboard_bottom_left_1 {
+    color: white;
+    font-size: x-large;
+  }
+  
+  .dashboard_bottom_left_2 div i {
+    font-size: 11em;
+    color: #747049;
+  }
+  
+  .dashboard_bottom_left_2 div h1 {
+    position: absolute;
+    left: 250px;
+    font-size: x-large;
+    margin-top: -140px;
+    background-color: transparent;
+    color: white;
+  }
+
+  /* Dashboard - bottom - right */
+  .dashboard_bottom_right {
+    background-color: #090F20;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .dashboard_bottom_right_header {
+    color: white;
+    font-size: large;
+    padding: 10px 10px;
+    background-color: transparent;
+  }
+  
+  .dashboard_bottom_right-1, 
+  .dashboard_bottom_right-2, 
+  .dashboard_bottom_right-3 {
+    display: flex;
+    padding: 4px;
+    gap: 10px;
+    border: 1px solid #999;
+    background-color: #080F21;
+    padding: 20px;
+    border-radius: 14px;
+  }
+
+  .dashboard_bottom_right-1-1,
+  .dashboard_bottom_right-2-1,
+  .dashboard_bottom_right-3-1{
+    background-color: #080F21;
+  }
+  
+  .dashboard_bottom_right-1-2 h1, 
+  .dashboard_bottom_right-2-2 h1, 
+  .dashboard_bottom_right-3-2 h1 {
+    font-size: large;
+    color: white;
+    background: #080F21;
+  }
+  
+  .dashboard_bottom_right-1-2 p, 
+  .dashboard_bottom_right-2-2 p, 
+  .dashboard_bottom_right-3-2 p {
+    text-align: left;
+    background-color: #080F21;
+  }
+  
+  .dashboard_bottom_button {
+    border: 1px solid #999;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dashboard_bottom_button:hover {
+    box-shadow: 0 0 20px red;
+    transition: 0.4s;
+  }
+  
+  .dashboard_bottom_button h1 { 
+    font-size: large;
+    margin: 0;
+  }
+  
+  /* Expenses Section */
+  .expenses, 
+  .income, 
+  .goals {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .expenses-header, 
+  .income-header, 
+  .goals-header {
+    font-size: large;
+    color: white;
+  }
+  
+  .expenses-content {
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .expenses-content div {
+    flex: 1;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+  }
+  
+  .expenses-content-header h2,
+  .expenses-content-data h2 {
+    font-size: small;
+  }
+  
+  .dec {
+    color: #ff4d4d;
+  }
+  
+  .ect {
+    color: white;
+  }
+  
+  .expenses-content-data {
+    border-top: 1px solid #999;
+  }
+  
+  /* Income Section */
+  .income-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .income-content-left, 
+  .income-content-right {
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .income-item {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+  }
+  
+  .income-item h2 {
+    margin: 0 0 5px 0;
+    color: #d0c03a;
+  }
+  
+  .income-item p {
+    margin: 5px 0;
+  }
+  
+  .income-item button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  .addincome__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .addincome__form input, 
+  .addincome__form select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    background-color: #070C1A;
+    color: white;
+  }
+  
+  .addincome__form button {
+    background-color: #d0c03a;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .addincome__form button:hover {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  /* Goals Section */
+  .goals-content {
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .SBP_header {
+      margin: 0 5em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .SBP_header {
+      margin: 0 2em;
+    }
+    
+    .SBP_header h1 {
+      font-size: 2rem;
+    }
+    
+    .dashboard_top, 
+    .dashboard_bottom {
+      flex-direction: column;
+    }
+    
+    .income-content {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .SBP_header {
+      margin: 0 1em;
+      gap: 10px;
+    }
+    
+    .SBP_header h1 {
+      font-size: 1.5rem;
+    }
+    
+    .SBP_header p {
+      font-size: 1rem;
+      margin-bottom: 40px;
+    }
+    
+    .navigation {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .dashboard, 
+    .expenses, 
+    .income, 
+    .goals {
+      padding: 20px 10px;
+    }
+  }
+
+
+
+  /* SBP Footer */
+
+  .SBP_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .SBP_footer div{
+    flex: 1;
+    background-color: #080F21;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .SBP_footer i , .SBP_footer h1, .SBP_footer p{
+    background-color: #080F21;
+  }
+
+  .SBP_footer i{
+    font-size: xx-large;
+  }
+
+  .SBP_footer h1{
+    font-size: large;
+    color: white;
+  }
+
+  .SBP_footer p{
+    text-align: left;
+    font-size: small;
+  }
+
+  .SBP_footer div:hover{
+    box-shadow: 0 0 10px gold;
+    transition: 0.4s;
+  }
